@@ -17,4 +17,9 @@ Waveform match/mismatch (timing diagram, ref)
 5. Declaring wires: connect internal components together
 
 # Vectors
-1. place dimension before the name when declaration
+1. type [upper:lower] vector_name
+2. Implicit nets  
+In Verilog, net-type signals can be implicitly created by an assign statement or by attaching something *undeclared* to a module port. Implicit nets are always one-bit wires.
+`default_nettype none     // Disable implicit nets. Reduces some types of bugs. 
+3. vector cannot be reversed directly, by bit assignment with concatenation to save a bit of coding.
+4. Sign-extending, concatenation/replication
