@@ -28,4 +28,9 @@ In Verilog, net-type signals can be implicitly created by an assign statement or
 1. The hierarchy of modules is created by instantiating one module inside another.
 2. Connect signals to module ports: by position/name
 3. Full adder equations: sum = a^b^cin, cout = a&b|a&cin|b&cin
-4. ripple carry adder -> delay of stage computing carry-out; carry-select addter: faster with a 2-to-1 mux.
+4. ripple carry adder -> delay of stage computing carry-out; carry-select adder: faster with a 2-to-1 mux.
+
+### Procedures
+1. Two types of always blocks: combinational: always @(*); clocked: always @(posedge clk)
+2. Blocking vs. Non-Blocking assignment
+3. Always if: 2-to-1 mux
