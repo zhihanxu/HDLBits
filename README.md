@@ -33,4 +33,10 @@ In Verilog, net-type signals can be implicitly created by an assign statement or
 ### Procedures
 1. Two types of always blocks: combinational: always @(*); clocked: always @(posedge clk)
 2. Blocking vs. Non-Blocking assignment
-3. Always if: 2-to-1 mux
+3. Always if: 2-to-1 mux; conditional operator
+4. Always case: 6-to-1 mux
+5. Priority Encoder: outputs the position of the first 1 bit in the vector, using if or casez
+
+### More Verilog Features
+1. Conditional Ternary Operator: (()? a: ()? b: c))
+2. Reduction operators: parity check; operate all bits of one vector
