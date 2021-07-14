@@ -41,5 +41,7 @@ In Verilog, net-type signals can be implicitly created by an assign statement or
 1. Conditional Ternary Operator: (()? a: ()? b: c))
 2. Reduction operators: parity check; operate all bits of one vector
 3. Long vector reversal: combinational for
-4. Popcount: combinational for
+4. Popcount: combinational for, if
+5. *array instantiation/generate* for multiple instantiation such as Multiple bit full_adder, ripple carry adder
+
 
