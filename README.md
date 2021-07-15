@@ -13,8 +13,9 @@ Waveform match/mismatch (timing diagram, ref)
 1. Wire: directional, continuous assignment. Assignment creates connections between wires. Wires are declared at the input/output, 1bit default.
 2. Inverter: bitwise-NOT(~), logical-NOT(!)
 3. AND-Gate: bitwise-AND(&), logical-AND(&&)
-4. XNOR-Gate: bitwise-XOR(^), no logical-XOR
-5. Declaring wires: connect internal components together
+4. OR-Gate: bitwise-OR(|), logical-OR(||)
+5. XNOR-Gate: bitwise-XOR(^), no logical-XOR
+6. Declaring wires: connect internal components together
 
 ### Vectors
 1. type [upper:lower] vector_name
